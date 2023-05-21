@@ -28,7 +28,7 @@ def startReceivingTime(slave_client):
     
     while True:
         # Receive data from the server
-        Synchronized_time = parse.parse(slave_client.recv(1024).decode())
+        Synchronized_time = parser.parse(slave_client.recv(1024).decode())
         print("Synchronized time at the client is: " + str(Synchronized_time), end = "\n\n")
         
 
