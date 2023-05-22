@@ -25,8 +25,8 @@ public class arrSum {
       int total_elements = unitsize * size;
       System.out.println("Enter " + total_elements + " elements");
       for (int i = 0; i < total_elements; i++) {
-        System.out.println("Element " + i + "\t = " + i);
-        send_buffer[i] = i;
+        System.out.println("Element " + i + "\t = " + (i + 1));
+        send_buffer[i] = (i + 1);
       }
     }
 
